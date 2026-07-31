@@ -1,4 +1,4 @@
-# 🚀 MiniGit - Full-Stack Internal Git Simulation Engine
+# 🚀 MiniGit - Full-Stack Version Control System Engine
 
 > A full-stack MERN implementation of Git core internals (object storage, SHA-256 content hashing, staging index, commit trees, and HEAD reference tracking) **without using the native Git CLI**.
 
