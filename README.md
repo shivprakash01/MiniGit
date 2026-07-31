@@ -160,11 +160,25 @@ Open your browser at **`http://localhost:3000`**.
 
 ## 📸 Screenshots & UI Workflow
 
-- **Dashboard**: Repository management and initialization.
-- **Code Workspace**: File viewer and code editor with quick `git add` actions.
-- **Git Status Panel**: Categorized status badges (`Staged`, `Modified`, `Untracked`) with commit submission form.
-- **Commit History**: Visual timeline of commits with parent commit links and file snapshot inspector.
-- **Checkout**: One-click historical repository restoration.
+### 1. Initialize Repository (`git init`)
+Simulates `git init` by creating `.minigit` object storage and HEAD reference on disk & MongoDB.
+![Init Repository](screenshots/01_init_repository.png)
+
+### 2. Code & Working Directory Workspace
+Create, view, and edit files in your working directory with quick `git add` actions.
+![Code Editor](screenshots/02_code_editor_and_files.png)
+
+### 3. Git Status & Staging Panel (`git status` & `git add`)
+Categorized status badges (`Staged`, `Modified`, `Untracked`) and `git commit -m` executor.
+![Git Status](screenshots/03_git_status_and_add.png)
+
+### 4. Commit History Timeline (`git log`)
+Visual `git log` timeline showing commit IDs, parent hashes, messages, timestamps, and snapshots.
+![Commit Log](screenshots/04_commit_history_log.png)
+
+### 5. Time Travel & Restore (`git checkout`)
+One-click historical repository restoration back to any previous commit snapshot.
+![Checkout Restore](screenshots/05_checkout_time_travel.png)
 
 ---
 
